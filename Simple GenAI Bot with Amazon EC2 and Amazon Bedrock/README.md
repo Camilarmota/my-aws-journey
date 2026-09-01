@@ -1,8 +1,5 @@
+![](project-banner.png)
 # 🚀 Simple GenAI Bot with Amazon EC2 and Amazon Bedrock
-
-![Banner do Projeto](https://lh3.googleusercontent.com/notebooklm/AKYWMX8yUAJi5CAiwh_SWHkon7_MrO_npWTR5Ua53ZoLyetW7DvczSI_H5yVS5ARPWXxulySKl0U_fTxUdk5oWbnCWWVuLHwaUvQxsrJpYDthWVy-oI3XTF4lHn_hPoLrM5jdFmUfld5ckR-fUxrY04j3Z2Wxdmw8vY)
-
-> 📌 **Nota sobre a Prévia no Gemini Notebook:** Se você estiver lendo este arquivo através do painel de visualização do Gemini Notebook, o banner acima deve carregar normalmente usando a URL dinâmica gerada pelo sistema. Para a imagem de arquitetura abaixo, você precisará visualizá-la quando o projeto for publicado no GitHub, utilizando o arquivo físico `imagem_2026-09-01_152042738.png` que você carregou como fonte.
 
 Este repositório contém a documentação completa e o código-fonte para implementar um chatbot web de resposta única (*one-shot* chatbot) na nuvem da **Amazon Web Services (AWS)**. 
 
@@ -14,7 +11,7 @@ O projeto demonstra como configurar uma aplicação web ponta a ponta que recebe
 
 O fluxo das requisições e a estrutura dos recursos provisionados seguem o diagrama abaixo:
 
-![Arquitetura da Solução](imagem_2026-09-01_152042738.png)
+![Arquitetura da Solução](Arquitetura.png)
 
 ### 🔄 Fluxo de Execução Técnica
 1. **Requisição do Usuário:** O usuário digita uma pergunta na página web simples servida pelo Apache (`httpd`) rodando na porta 80.
